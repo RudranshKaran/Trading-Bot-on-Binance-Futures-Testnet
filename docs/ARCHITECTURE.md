@@ -89,7 +89,7 @@ trading_bot/
 │   ├── orders.py                 # Order execution logic
 │   ├── validators.py             # Input validation logic
 │   ├── logging_config.py         # Centralized logging configuration
-│   └── **init**.py
+│   └── __init__.py
 │
 ├── interfaces/
 │   ├── cli.py                    # CLI entry point
@@ -97,9 +97,11 @@ trading_bot/
 │
 ├── docs/
 │   ├── ARCHITECTURE.md
+│   ├── ASSUMPTIONS.md
 │   ├── CLI_USAGE.md
 │   ├── LOGGING.md
-│   └── ASSUMPTIONS.md
+│   ├── PHASE_EXECUTION.md
+│   └── TASK.md
 │
 ├── logs/
 │   └── trading_bot.log

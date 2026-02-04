@@ -76,7 +76,7 @@ trading_bot/
 │   ├── orders.py                 # Order execution logic
 │   ├── validators.py             # Input validation
 │   ├── logging_config.py         # Centralized logging configuration
-│   └── **init**.py
+│   └── __init__.py
 │
 ├── interfaces/
 │   ├── cli.py                    # CLI entry point
